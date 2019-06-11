@@ -84,6 +84,12 @@
         "NUCLEO_F303RE": {
             "kvstore-size": "2*24*1024",
             "update-client.storage-page": 1
-        }
+        },
+        "UNO_91H": {
+	    "kvstore-size": "2*64*1024",
+            "mbed-bootloader.max-application-size"     : "(0xCFC00)",
+            "update-client.storage-address"            : "(0x18120000)",
+            "update-client.storage-size"               : "(0xD0000)"
+	}
     }
 }
